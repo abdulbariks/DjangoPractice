@@ -16,3 +16,9 @@ py manage.py startapp machineLearning
 
 Django Views
 Django URLs
+
+Django Templates:
+Create a templates folder inside the templates folder, and create a HTML file named deepLearning.html & machineLearning.html.
+
+Change Settings:
+settings.py file in the DjangoPractice folder update TEMPLATE_DIR & INSTALLED_APPS
