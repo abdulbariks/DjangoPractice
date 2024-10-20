@@ -3,4 +3,5 @@ from . import views
 
 urlpatterns = [
     path('machine/', views.machineLearning, name='machineLearning'),
+    path('', views.main),
 ]
