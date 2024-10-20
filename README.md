@@ -22,3 +22,5 @@ Create a templates folder inside the templates folder, and create a HTML file na
 
 Change Settings:
 settings.py file in the DjangoPractice folder update TEMPLATE_DIR & INSTALLED_APPS
+
+Create Static files (CSS, JavaScript, Images)
