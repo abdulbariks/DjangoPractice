@@ -26,3 +26,5 @@ settings.py file in the DjangoPractice folder update TEMPLATE_DIR & INSTALLED_AP
 Create Static files (CSS, JavaScript, Images)
 
 Display Data: Prepare Template, Add Link, Add Main Index Page, 404 page not found
+
+Bootstrap added HTML file
