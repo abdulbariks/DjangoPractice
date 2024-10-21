@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'machineLearning',
     'deepLearning',
+    'bootstrap5',
 ]
 
 MIDDLEWARE = [

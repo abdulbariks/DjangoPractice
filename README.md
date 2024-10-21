@@ -28,3 +28,5 @@ Create Static files (CSS, JavaScript, Images)
 Display Data: Prepare Template, Add Link, Add Main Index Page, 404 page not found
 
 Bootstrap added HTML file
+
+Install Bootstrap 5 in Django project: pip install django-bootstrap-v5
