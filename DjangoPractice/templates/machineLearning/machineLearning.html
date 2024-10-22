@@ -1,15 +1,8 @@
-{% load static %}
-<!DOCTYPE html>
-
-<link rel="stylesheet" href="{% static 'CSS/machineLearning.css' %}" />
-<html>
-  <body>
-    <p>My Name is {{name}} and age is {{age}}</p>
-    <p>Welcome to my first Django project for Machine Learning</p>
-    {% for x in fruits %}
-    <h2>{{x}}</h2>
-    {% endfor %}
-    <br />
-    <img src="{% static "Images/Abdul Barik.jpg" %}">
-  </body>
-</html>
+{% extends "main.html" %} {% load static %} {% block content %}
+<p>My Name is {{name}} and age is {{age}}</p>
+<p>Welcome to my first Django project for Machine Learning</p>
+{% for x in fruits %}
+<h2>{{x}}</h2>
+{% endfor %}
+<br />
+<img src="{% static "Images/Abdul Barik.jpg" %}"> {% endblock content %}
