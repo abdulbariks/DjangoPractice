@@ -1,3 +1,7 @@
 {% extends "main.html" %} {% block content %}
-<h2>deep Learning</h2>
+<ol>
+  {% for x in deeplearnings %}
+  <li>{{x.firstname}} {{x.lastname}}</li>
+  {% endfor %}
+</ol>
 {% endblock content %}
