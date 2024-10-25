@@ -20,5 +20,6 @@ from django.urls import include, path
 urlpatterns = [
     path('', include('machineLearning.urls')),
     path('', include('deepLearning.urls')),
+    # path('', include('UserView.urls')),
     path('admin/', admin.site.urls),
 ]
