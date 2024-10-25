@@ -34,3 +34,7 @@ Install Bootstrap 5 in Django project: pip install django-bootstrap-v5
 Template inheritance dynamic url create
 
 Django Models: Create Table (Model), Insert Data, Update Data, Delete Data, Update Model
+
+Django Admin: Create User, Include DeepLearning, Set Fields to Display, Update DeepLearning, Add Members, Delete DeepLearning
+
+Django form:
