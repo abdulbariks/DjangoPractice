@@ -37,4 +37,4 @@ Django Models: Create Table (Model), Insert Data, Update Data, Delete Data, Upda
 
 Django Admin: Create User, Include DeepLearning, Set Fields to Display, Update DeepLearning, Add Members, Delete DeepLearning
 
-Django form:
+Django form: django form widgets https://www.javatpoint.com/django-form-widget
