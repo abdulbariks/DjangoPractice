@@ -18,3 +18,7 @@ class UsersForm(forms.Form):
     # rank = forms.ChoiceField(choices=Choice_value)  
     rank = forms.ChoiceField(widget = forms.RadioSelect, choices=Choice_value)  
     message = forms.CharField(max_length=100, label="Please write a message for us")  
+    file      = forms.FileField()
+    
+    
+    
