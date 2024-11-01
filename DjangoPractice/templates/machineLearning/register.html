@@ -1,4 +1,6 @@
-{% extends "main.html" %} {% load static %} {% block content %}
+{% extends "main.html" %}
+<title>{% block title %}Register{% endblock %}</title>
+{% block content %}
 <form action="" method="POST" novalidate>
   {% csrf_token %} {% for fm in form %} {{fm.label_tag}} {{fm}}
   {{fm.errors|striptags}} <br /><br />

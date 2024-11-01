@@ -1,4 +1,6 @@
-{% extends "main.html" %} {% load static %} {% block content %}
+{% extends "main.html" %}
+<title>{% block title %}Machine Learning{% endblock %}</title>
+{% load static %} {% block content %}
 <p>My Name is {{name}} and age is {{age}}</p>
 <p>Welcome to my first Django project for Machine Learning</p>
 {% for x in fruits %}

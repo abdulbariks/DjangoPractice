@@ -40,3 +40,15 @@ Django Admin: Create User, Include DeepLearning, Set Fields to Display, Update D
 Django form: django form widgets https://www.javatpoint.com/django-form-widget
 
 Create Registration Form Using UserCreationForm and Save Data
+
+<!-- Django REST framework -->
+
+pip install django
+
+pip install django_rest_framework
+
+django-admin startproject demo
+
+django-admin startapp demo_api
+
+https://blog.logrocket.com/django-rest-framework-create-api/
